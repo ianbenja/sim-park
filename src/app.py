@@ -960,6 +960,6 @@ def Generar_Simulacion(autos, horas, tiempo_est, tiempo_bol, tiempo_con, tiempo_
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=True, port=8071)
 
 #Actualizado 
