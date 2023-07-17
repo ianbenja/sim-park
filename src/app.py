@@ -5,8 +5,8 @@ import numpy as np
 import pandas as pd
 import prueba_2
 
-
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+app.debug = True  # Habilitar el modo de depuración
 server = app.server
 
 SIDEBAR_STYLE = {
@@ -960,6 +960,6 @@ def Generar_Simulacion(autos, horas, tiempo_est, tiempo_bol, tiempo_con, tiempo_
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8071)
+    app.run_server(debug=True,port=8071)
 
 #Actualizado 
