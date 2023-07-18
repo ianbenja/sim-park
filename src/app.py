@@ -3,6 +3,9 @@ from dash.dependencies import Input, Output, State
 import dash_bootstrap_components as dbc
 import numpy as np
 import pandas as pd
+import sys
+sys.path.append(r"C:\Users\Urnao\Desktop\tp5 sim\DeployWithRender")
+
 import prueba_2
 
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
